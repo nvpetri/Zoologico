@@ -11,7 +11,7 @@ public class Menu {
     Scanner scanner = new Scanner(System.in);
     public void executarMenu() {
 
-        boolean continuar;
+        boolean continuar = true;
 
         while (continuar) {
 
