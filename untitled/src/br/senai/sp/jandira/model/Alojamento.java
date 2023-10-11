@@ -4,10 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Alojamento {
-    List<Alojamento> alojamentoMamifero = new ArrayList<>();
+    List<Mamifero> alojamentoMamifero = new ArrayList<>();
 
-    List<Alojamento> alojamentoFelino = new ArrayList<>();
+    List<Felino> alojamentoFelino = new ArrayList<>();
 
-    List<Alojamento> alojamentoAve = new ArrayList<>();
-    
+    List<Ave> alojamentoAve = new ArrayList<>();
+
+
+    public void adicionarAveAlojamento(Ave ave){
+        alojamentoAve.add(ave);
+    }
 }
