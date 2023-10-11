@@ -11,6 +11,10 @@ public class Ave extends Animal{
         super("ave");
     }
 
+    public void addAve(Ave ave){
+        listAve.add(ave);
+    }
+
     public void listarAve(){
         for (Ave ave: listAve) {
             System.out.println("id: "+ ave.idAnimal);
